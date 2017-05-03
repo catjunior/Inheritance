@@ -40,14 +40,6 @@ public class SuperHuman extends Human {
 
     }
 
-    public static void main(String[] args) {
-
-        SuperHuman paul = new SuperHuman("Paul", 10, true, "cooker", "NY", true, "Mr.X", "invisible" );
-
-        paul.getInfo();
-        paul.getSuperInfo();
-
-    }
 
 }
 

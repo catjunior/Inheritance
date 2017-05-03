@@ -44,16 +44,4 @@ public class Human{
     }
 
 
-
-    public static void main(String[] args) {
-
-        Human matt = new Human ("Matt Wu", 32, true, "student", "King of Prussia");
-        Human john = new Human ("John Smith", 40, true, "doctor", "Philadelphia");
-        Human lis = new Human ("Lis Jones", 25, false, "teacher", "New York");
-
-        matt.getInfo();
-        matt.getName();
-
-    }
-
 }
