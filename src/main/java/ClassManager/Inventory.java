@@ -5,35 +5,35 @@ package ClassManager;
  */
 import java.util.ArrayList;
 
+
 public class Inventory {
 
     private ArrayList<Product> inventoryList; //filed
 
 
     public Inventory() {
+
         inventoryList = new ArrayList<Product>();
     }
 
-    /*
-    public ArrayList<Product> getProducts() {
-        return products;
-    }
-    */
 
     public ArrayList<Product> getInventoryList() {
 
         return inventoryList;
     }
 
+
     public int size(){
 
         return inventoryList.size();
     }
 
+
     public void addProduct(Product p) {
 
         inventoryList.add(p);
     }
+
 
     public void removeProduct(int expectedID) {
 
@@ -48,8 +48,8 @@ public class Inventory {
 
             }
         }
-
     }
+
 
     public double getSumOfProducts() {
 
@@ -61,7 +61,7 @@ public class Inventory {
 
         }
         return sum;
-
     }
 
 }
+
