@@ -8,7 +8,7 @@ public class SavingAccount extends Account {
     private double savingInterestRate = 0.05;
 
 
-    public SavingAccount (){}
+    public SavingAccount(double currentBalance, double interestRate, int years){}
 
     public SavingAccount (String name, String type, double balance, double credit){
 

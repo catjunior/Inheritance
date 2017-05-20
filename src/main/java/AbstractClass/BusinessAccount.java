@@ -9,7 +9,7 @@ public class BusinessAccount extends Account {
     private double businessInterestRate = 0.1;
 
 
-    public BusinessAccount (){}
+    public BusinessAccount(double currentBalance, double interestRate, int years){}
 
     public BusinessAccount (String name, String type, double balance, double credit){
 

@@ -13,6 +13,7 @@ public class MainHumanLab {
 
         SuperHuman paul = new SuperHuman("Paul", 10, true, "cooker", "NY", true, "Mr.X", "invisible" );
         paul.getInfo();
+        paul.getSuperInfo();
 
     }
 

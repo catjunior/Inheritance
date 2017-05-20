@@ -10,7 +10,7 @@ public class CheckingAccount extends Account {
 
 
 
-    public CheckingAccount (){}
+    public CheckingAccount(double currentBalance, double interestRate, int years){}
 
     public CheckingAccount (String name, String type, double balance, double credit){
 

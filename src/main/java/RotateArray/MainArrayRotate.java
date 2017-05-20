@@ -5,7 +5,7 @@ import SuperHumans.SuperHuman;
 /**
  * Created by mattwu on 5/2/17.
  */
-public class Main {
+public class MainArrayRotate {
 
     public static void main(String[] args) {
 
