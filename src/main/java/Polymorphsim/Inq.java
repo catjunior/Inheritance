@@ -32,18 +32,15 @@ public class Inq {
 
             if (typeOfPets.equalsIgnoreCase("dog")){
 
-                Pets dog = new Dogs(nameOfPets);
-                petList.add(dog);
+                petList.add(new Dogs(nameOfPets));
 
             } else if (typeOfPets.equalsIgnoreCase("cat")) {
 
-                Pets cat = new Cats(nameOfPets);
-                petList.add(cat);
+                petList.add(new Cats(nameOfPets));
 
             } else if (typeOfPets.equalsIgnoreCase("bird")) {
 
-                Pets bird = new Birds(nameOfPets);
-                petList.add(bird);
+                petList.add(new Birds(nameOfPets));
 
             } else {
 
